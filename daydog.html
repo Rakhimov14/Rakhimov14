@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dogs life</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="dogshome.css">
+    <link rel="shortcut icon" type="x-icon" href="logohead.png">
+</head>
+<body>
+    <div id="groomingcontainer">
+        <header>
+            <img src="11.png" style="width: 400px; height: 100px; float: left; margin-left: 200px; box-shadow: none;">
+        </header>
+        <br>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn" ><span class="caret"></span>Service</a>
+            <div class="dropdown-content">
+                <a href="contactdog.html">Contact us</a>
+                <a href="schedule.html">Working Hours</a>
+                <a href="vocation.html">Boarding</a>
+            </div>
+            </li>
+            <form action="https://www.google.ru/search">
+                <input type="search" placeholder="Search...">
+            </form>
+            </ul>
+        </nav>
+        <main>
+        <p><b>Dogs Daycare</b></p>
+        <div class="healthcontent" style="max-width:500px; max-height: 500px; box-shadow: 0 5px 5px 8px #666666;">
+            <img class="mySlides" src="9b.jpg" >
+            <img class="mySlides" src="880.jpg" >
+            <img class="mySlides" src="ba.jpg" >
+            <img class="mySlides" src="pool.jpg" >
+            
+        </div>
+            <script>
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 2000); // Change image every 2 seconds
+                }
+            </script>
+            <br>
+        <blockquote>    
+        <div id="behaviortext">
+        <dd><b>Playrooms:</b>
+                <dt>
+                    Our dog daycare facilities include spacious, climate-controlled playrooms that are 100% fully supervised. Our playrooms are grouped by size, personality and play style to make sure your dog is safe and comfortable. Before staying with us, our team first meets with your dog to ensure they will be a good fit for our open play environment.
+                </dt>
+            </dd>
+            <dd><b>Benefits of Dog's Daycare:</b>
+                <dt>
+                    For many dog parents, leaving their furry family member for the first time can be a stressful experience. Dogtopia’s professionally trained team goes the extra mile to calm both dogs and their parents. We’ll care for your pup as if they’re our own and ensure they have the most exciting day ever!
+                </dt>
+            </dd>
+            <dd><b>Tpical day at dog daycare:</b>
+                <dt>                   
+                        <li>Opening – 12 pm: Supervised open play time which includes romping, frolicking, sniffing and fun with their BFFFs (best furry friends forever)</li>
+                        <li>12 pm – 2 pm: Well-deserved rest time</li>
+                        <li>2 pm – Closing: Open play again before their parents pick up a tired and calm dog</li>
+                </dt>
+            </dd>
+
+            </div>
+            </blockquote>
+            
+        </main>
+        <footer id="dayfooter">
+            <b> &copy;2017 A Dog's Life </b>
+        </footer>
+    </div>
+</body>
+</html

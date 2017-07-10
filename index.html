@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dogs life</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="x-icon" href="logohead.png">
+	<link rel="stylesheet" type="text/css" href="dogshome.css">
+	
+</head>
+<body>
+	<script type="text/javascript">
+		alert("This website for only person who is older than 10years!")/*message box*/
+	</script>
+	
+	<div class="container">
+		<header>
+			<img src="11.png" style="width: 400px; height: 100px; float: left; margin-left: 200px; box-shadow: none;">
+		</header>
+		<br>
+		<nav>
+			<ul>
+			<li><a href="index.html">Home</a></li>
+  			
+  			<li class="dropdown">
+   			<a href="javascript:void(0)" class="dropbtn">Service</a>
+    		<div class="dropdown-content">
+      			<a href="contactdog.html">Contact us</a>
+      			<a href="schedule.html">Working Hours</a>
+      			<a href="vocation.html">Boarding</a>
+    		</div>
+  			</li>
+  			<form action="https://www.google.ru/search">
+  				<input type="search" placeholder="Search...">
+			</form>
+			</ul>
+		</nav>
+		<main>
+			<div class="slidecontent" >
+  				<img class="mySlides" src="2270305.jpg" style="width:100%">
+  				<img class="mySlides" src="Dog-Bathing.jpg" style="width:100%">
+  				<img class="mySlides" src="dog-care-hacks.jpg" style="width:100%">
+  				<img class="mySlides" src="Monsoon-care-for-dogs1.jpg" style="width:100%">
+
+			</div>
+
+		<script>
+			var myIndex = 0;
+			carousel();
+
+			function carousel() {
+    			var i;
+    			var x = document.getElementsByClassName("mySlides");
+    			for (i = 0; i < x.length; i++) {
+       			x[i].style.display = "none";  
+    			}
+    		myIndex++;
+    		if (myIndex > x.length) {myIndex = 1}    
+    		x[myIndex-1].style.display = "block";  
+    		setTimeout(carousel, 2500); // Change image every 2 seconds
+			}
+		</script>
+
+		<br>
+		<div class="gallery" style="background-color: #FFF">
+  			<a href="doghealth.html">
+    			<img src="3679126.jpg" alt="Grooming" width="300" height="200">
+  			</a>
+  			<div class="desc">Dog's Grooming</div>
+		</div>
+
+		<div class="gallery" style="background-color: #FFF">
+  			<a href="dogbehavior.html">
+    			<img src="behavior_senior_dogs_thumbnail.jpg" alt="Training" width="600" height="400">
+  			</a>
+  			<div class="desc">Dog's Training</div>
+		</div>
+
+		<div class="gallery" style="background-color: #FFF">
+  			<a href="daydog.html">
+   				<img src="images.jpg" alt="Care" width="600" height="400">
+  			</a>
+  			<div class="desc">Dog's Care</div>
+		</div>
+
+		<div class="gallery" style="background-color: #FFF">
+  			<a href="food.html">
+    			<img src="Save-money-on-Food.jpg" alt="Food" width="600" height="400">
+  			</a>
+  			<div class="desc">Dog's Food</div>
+		</div>
+		</main>
+		</div>
+		<footer id="homefooter">
+			<b> &copy;2017 A Dog's Life </b>
+		</footer>
+
+</body>
+</html>

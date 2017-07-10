@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dogs life</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="x-icon" href="logohead.png">
+    <link rel="stylesheet" type="text/css" href="dogshome.css">.
+</head>
+<body>
+    <div id="groomingcontainer">
+        <header>
+           <img src="11.png" style="width: 400px; height: 100px; float: left; margin-left: 200px; box-shadow: none;">
+        </header>
+        <br>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn" ><span class="caret"></span>Service</a>
+            <div class="dropdown-content">
+                <a href="contactdog.html">Contact us</a>
+                <a href="schedule.html">Working Hours</a>
+                <a href="vocation.html">Boarding</a>
+            </div>
+            </li>
+            <form action="https://www.google.ru/search">
+                <input type="search" placeholder="Search...">
+            </form>
+            </ul>
+        </nav>
+        <main>
+        <p><b>Grooming of Dogs</b></p>
+        
+        <div class="healthcontent" style="max-width:500px; max-height: 500px;">
+
+            <img class="mySlides" src="dog.jpg" >
+            <img class="mySlides" src="grooming.jpg" >
+            <img class="mySlides" src="Clipping.jpg" >
+            <img class="mySlides" src="Higiena.jpg" >
+            
+        </div>
+            <script>
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 2000); // Change image every 2 seconds
+                }
+            </script>
+            <br>
+        <blockquote >
+        <div id="groomtext">
+            The coats of many breeds require trimming, cutting, or other attention. Styles vary by breed and discipline. While some hair removal has its origins in practical purposes, much is based on the taste of the owner, whether or not the dog will be shown, and what work the dog does.<br><br>
+
+
+            A six-month-old Lhasa Apso before and after a visit to a professional groomer.
+            The rubber grooming gloves and dog brushes are intended to drag loose hair from the short-coated dogs and are some of the most popular grooming tools amongst pet owners. They are easy to use, as using them basically means massaging the coat in firm strokes and have the advantage of being suitable for both wet and dry coats.<br><br>
+
+            Some breeds of dog, such as the Lhasa Apso, do not shed fur but have hair that grows constantly. As such, the fur around the legs and belly can get very long and become matted and the hair around the eyes can impair the dog's vision. In such circumstances, hair trimming can be performed to keep the eyes clear of fur and keep the main body free of knots. However, some owners prefer breeds, such as the Lhasa, to have long, flowing coats that reach down to the floor and will undertake a greater brushing regime than is required for a dog that has its fur kept shorter.
+        </div>
+        </blockquote>
+
+
+        </main>
+        <footer id="groomingfooter">
+            <b> &copy;2017 A Dog's Life </b>
+        </footer>
+    </div>
+</body>
+</html

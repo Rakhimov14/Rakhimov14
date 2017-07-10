@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dogs life</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="dogshome.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<img src="bigstock-Puppy-Dogs-In-A-Row-14892893-e1434730213479.jpg">
+		</header>
+		<br>
+		<nav>
+			<ul>
+			<li><a href="dogshome.html">Home</a></li>
+  			<li><a href="contactdog.html">Contact us</a></li>
+  			<li class="dropdown">
+   			<a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    		<div class="dropdown-content">
+      			<a href="#">Link 1</a>
+      			<a href="#">Link 2</a>
+      			<a href="#">Link 3</a>
+    		</div>
+  			</li>
+  			<form action="/action_page.php">
+  				<input type="search" value="Search">
+			</form>
+			</ul>
+		</nav>
+		<main>
+			<div class="slidecontent" >
+  				<img class="mySlides" src="2270305.jpg" style="width:100%">
+  				<img class="mySlides" src="Dog-Bathing.jpg" style="width:100%">
+  				<img class="mySlides" src="dog-care-hacks.jpg" style="width:100%">
+  				<img class="mySlides" src="Monsoon-care-for-dogs1.jpg" style="width:100%">
+
+			</div>
+
+		<script>
+			var myIndex = 0;
+			carousel();
+
+			function carousel() {
+    			var i;
+    			var x = document.getElementsByClassName("mySlides");
+    			for (i = 0; i < x.length; i++) {
+       			x[i].style.display = "none";  
+    			}
+    		myIndex++;
+    		if (myIndex > x.length) {myIndex = 1}    
+    		x[myIndex-1].style.display = "block";  
+    		setTimeout(carousel, 2500); // Change image every 2 seconds
+			}
+		</script>
+
+		
+
+		</div>
+		</main>
+		<footer>
+			<b> &copy;2017 Kodirjon Rakhimov </b>
+		</footer>
+	</div>
+</body>
+</html>

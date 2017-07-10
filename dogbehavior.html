@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dogs life</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="dogshome.css">
+    <link rel="shortcut icon" type="x-icon" href="logohead.png">
+</head>
+<body>
+    <div id="groomingcontainer">
+        <header>
+            <img src="11.png" style="width: 400px; height: 100px; float: left; margin-left: 200px; box-shadow: none;">
+        </header>
+        <br>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn" ><span class="caret"></span>Service</a>
+            <div class="dropdown-content">
+                <a href="contactdog.html">Contact us</a>
+                <a href="schedule.html">Working Hours</a>
+                <a href="vocation.html">Boarding</a>
+            </div>
+            </li>
+            <form action="https://www.google.ru/search">
+                <input type="search" placeholder="Search...">
+            </form>
+            </ul>
+        </nav>
+        <main>
+        <p><b>Dogs Training</b></p>
+        <div class="healthcontent" style="max-width:500px; max-height: 500px; box-shadow: 0 5px 5px 8px #666666;">
+            <img class="mySlides" src="maxresdefault.jpg" >
+            <img class="mySlides" src="c68.jpg" >
+            <img class="mySlides" src="agility.jpg" >
+            <img class="mySlides" src="dog-running.jpg" >
+            
+        </div>
+            <script>
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 2000); // Change image every 2 seconds
+                }
+            </script>
+            <br>
+        <blockquote>    
+        <div id="behaviortext">
+            
+            <dd><b>Intelligence:</b>
+                <dt>
+                    Dog intelligence is the ability of the dog to perceive information and retain it as knowledge for applying to solve problems. Dogs have been shown to learn by inference. A study with Rico showed that he knew the labels of over 200 different items. He inferred the names of novel items by exclusion learning and correctly retrieved those novel items immediately and also 4 weeks after the initial exposure. Dogs have advanced memory skills. A study documented the learning and memory capabilities of a border collie, "Chaser", who had learned the names and could associate by verbal command over 1,000 words. Dogs are able to read and react appropriately to human body language such as gesturing and pointing, and to understand human voice commands. After undergoing training to solve a simple manipulation task, dogs that are faced with an insolvable version of the same problem look at the human, while socialized wolves do not. Dogs demonstrate a theory of mind by engaging in deception.
+                </dt>
+            </dd>
+            <dd><b>Communication behavior:</b>
+                <dt>
+                    Dog communication is about how dogs "speak" to each other, how they understand messages that humans send to them, and how humans can translate the ideas that dogs are trying to transmit. These communication behaviors include eye gaze, facial expression, vocalization, body posture (including movements of bodies and limbs) and gustatory communication (scents, pheromones and taste). Humans communicate with dogs by using vocalization, hand signals and body posture.
+                </dt>
+            </dd>
+            </blockquote>  
+        </main>
+        <footer id="behaviorfooter">
+            <b> &copy;2017 A Dog's Life </b>
+        </footer>
+    </div>
+</body>
+</html

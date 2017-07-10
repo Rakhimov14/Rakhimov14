@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dogs life</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="dogshome.css">
+    <link rel="shortcut icon" type="x-icon" href="logohead.png">
+</head>
+<body>
+    <div id="foodcontainer">
+        <header>
+            <img src="11.png" style="width: 400px; height: 100px; float: left; margin-left: 200px; box-shadow: none;">
+        </header>
+        <br>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn" ><span class="caret"></span>Service</a>
+            <div class="dropdown-content">
+                <a href="contactdog.html">Contact us</a>
+                <a href="schedule.html">Working Hours</a>
+                <a href="vocation.html">Boarding</a>
+            </div>
+            </li>
+            <form action="https://www.google.ru/search">
+                <input type="search" placeholder="Search...">
+            </form>
+            </ul>
+        </nav>
+        <main>
+        <p><b>Dog's Food</b></p>
+        <div class="healthcontent" style="max-width:500px; max-height: 500px; box-shadow: 0 5px 5px 8px #666666;">
+            <img class="mySlides" src="Dry.jpg" >
+            <img class="mySlides" src="dog1.jpg" >
+            <img class="mySlides" src="food-and-water.jpg" >
+            <img class="mySlides" src="cute.jpg" >
+            
+        </div>
+            <script>
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 2000); // Change image every 2 seconds
+                }
+            </script>
+            <br>
+        <blockquote>    
+        <div id="foodtext">
+        <dd><b>1. Wellness Core:</b>
+                <dt>
+                   The Wellness Core product line includes seven dry dog foods, six which claim to meet AAFCO nutrient profiles for adult maintenance. This above-average dry product has a dry matter protein reading of 38%, a fat level of 13% and estimated carbohydrates of about 41%. What does this mean? The brand is way above-average with protein, near-average with fat and below-average with carbs when compared to a typical dry dog food. As you might have guessed, these are all very good things. Plus, tons of flaxseed. Yum!
+                   <br><br>                    
+                   <i><b>Best shopping bet: Amazon.com, $53.95 for a 26 lb bag</b></i>
+                </dt>
+            </dd>
+            <br><br> 
+            <dd><b>2. Taste of the Wild:</b>
+                <dt>
+                   The Taste of the Wild product line includes seven dry dog foods, and they’re all pretty great. Our top pick is Taste of the Wild High Prairie Formula, which reached it’s five star rating on DogFoodAdvisor (note: not all of their products did, though none were less than 3.5). The food has a protein-boosting effect through its pea protein, peas and flaxseed, as well as a potato protein and garbanzo beans. It’s grain free, made with purified water, and suitable for pups of all ages.
+                    <br><br> 
+                    <i><b>Best shopping bet: PetFoodDirect.com, $44.89 for a 30 lb bag</b></i>
+                </dt>
+            </dd>
+            <br><br>
+            <dd><b>3. Solid Gold Barking at the Moon:</b>
+                <dt>                   
+                    Solid Gold Barking at the Moon has been designed for performance dogs (that of course doesn’t mean that your pup’s gotta be training for the doggie olympics to eat it) and meets AAFCO nutrient profiles for adult maintenance. The first ingredient here is ocean fish meal, which may sound disgusting but is actually awesome because it’s considered a meat concentrate. That means it contains almost 300% more protein than fresh fish itself! Plus, unlike most fish meals, this one is ethoxyquin-free – big ups! If nothing else, the name and bag design are truly glorious.
+                    <br><br> 
+                    <i><b>Best shopping bet: Amazon, $85.99 for a 24 lb bag.</b></i>
+                </dt>
+            </dd>
+
+            </div>
+            </blockquote>
+            
+        </main>
+        <footer id="foodfooter">
+            <b> &copy;2017 A Dog's Life </b>
+        </footer>
+    </div>
+</body>
+</html

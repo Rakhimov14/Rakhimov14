@@ -1,0 +1,297 @@
+
+/* dogshome */
+body{ 
+	background: #666666;
+    
+}
+main{
+	width: auto;
+	height: auto;
+}
+.container {
+	width: 800px;
+	height: 720px;
+	margin: auto;
+	background-color: #fff;
+}
+header {
+	width: 800px;
+	height: 120px;
+}
+header img {
+	width: 750px;
+	height: 100px;
+	margin-left: 25px;
+	margin-top: 15px;
+	box-shadow: 0 5px 5px 5px #666666; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: blue;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+form {
+	float: right;
+	margin-top: 12px;
+	margin-right: 10px;
+}
+div.gallery {
+    margin: 8px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    box-shadow: 0 5px 5px 5px #666666; 
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.slidecontent {
+	max-width:500px; 
+	margin-left: 150px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0 5px 5px 8px #666666; 
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+	margin-top: 0;
+	padding: 20px;
+	text-align: center;}
+
+/* contact dog */
+#contactdogcontainer {
+	width: 800px;
+	height: auto;
+	margin: auto;
+	background-color: white; 
+}
+
+#voccontainer {
+	width: 800px;
+	height: auto;
+	margin: auto;
+	background-color: white; 
+}
+
+#groomingcontainer{
+	width: 800px;
+	height: auto;
+	margin: auto;
+	background-color: #fff;
+}
+#foodcontainer{
+	width: 800px;
+	height: auto;
+	margin: auto;
+	background-color: #fff;
+}
+#timecontainer{
+	width: 800px;
+	height: auto;
+	margin: auto;
+	background-color: #fff;
+}
+
+.fieldset {
+	width: 700px;
+	margin:auto;
+}
+
+#contactdogfooter {
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+#vocfooter {
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.healthcontent{
+	margin: auto;
+	text-align: center;
+	box-shadow: 0 5px 5px 8px #666666
+}
+main p {
+	border: 2px solid #000;
+	padding: 10px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	box-shadow:inset 0 0px 5px 5px #666666; 
+
+}
+#homefooter{
+	background-color: #000;
+	color: #fff;
+	margin:auto;
+	padding: 20px;
+	width: 761px;
+	
+}
+
+#groomingfooter{
+	background-color: #000;
+	color: #fff;
+	margin-top: 0;
+	padding: 20px;
+}
+
+#behaviorfooter{
+	background-color: #000;
+	color: #fff;
+	margin-top: 0;
+	padding: 20px;
+}
+
+#timefooter{
+	background-color: #000;
+	color: #fff;
+	margin-top: 0;
+	padding: 20px;
+}
+
+#groomtext{
+    width: 600px;
+    height: 350px;    
+    padding: 50px;
+    border: 2px solid #000;
+    box-shadow: inset 0px 0px 15px 10px #666666;
+    margin: auto;
+}
+
+#voctext{
+    width: 600px;
+    height: 350px;    
+    padding: 50px;
+    border: 2px solid #000;
+    box-shadow: inset 0px 0px 15px 10px #666666;
+    margin: auto;
+}
+
+#timetext{
+    width: 600px;
+    height: 240px;    
+    padding: 50px;
+    border: 2px solid #000;
+    box-shadow: inset 0px 0px 15px 10px #666666;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;    
+}
+
+#foodtext{
+    width: 600px;
+    height: 580px;    
+    padding: 50px;
+    border: 2px solid #000;
+    box-shadow: inset 0px 0px 15px 10px #666666;
+    margin: auto;
+}
+
+#behaviortext{
+	margin: auto;
+    width: 600px;
+    height: 360px;    
+    padding: 50px;
+    border: 2px solid #000;
+    box-shadow: inset 0px 0px 15px 10px #666666;
+    margin: auto;
+}
+
+#dayfooter{
+	background-color: #000;
+	color: #fff;
+	margin-top: 0;
+	padding: 20px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  clear: both;
+  float: right;
+  margin-right: 50px;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+
+}
